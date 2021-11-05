@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #22223B;
+    font-family: 'Lato';
+}
+
+h1{
+    color:#F2E9E4;
+    font-weight: 900;
+}
+
+p, label{
+    color:#C9ADA7;
+    font-size:16px;
+}
+
+label{
+    font-weight: 300;
+    font-style: italic;
+}
+
+.figure-container{
+    fill:transparent;
+    stroke: #9A8C98;
+    stroke-width: 4px;
+    stroke-linecap: round;
+}
+
+.figure-part{
+    display:none;
+}
